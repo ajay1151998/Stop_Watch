@@ -1,7 +1,7 @@
 
 # Stop-Watch
 
-preview : https://ajay1151998.github.io/Stop_Watch/
+preview :https://ajay1151998.github.io/Stop_Watch/
 
 
 --Home Screen : Added Home Screen Stop Watch Image. 
