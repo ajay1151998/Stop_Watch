@@ -1,0 +1,96 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(digital-7.ttf);
+}
+body{
+    color: aliceblue;
+    font-family: digital-7;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* describe the width , height of main div  */
+div{
+    width: 80%;
+    min-width: 60%;
+    max-width: 100%;
+    margin: 100px auto;
+}
+/* here describe the img div height and width */
+#watch{
+    width: 80%;
+    height: 500px;
+   
+}
+/* clock img height and width */
+#watch img{
+  height: 50%;
+  width: 70%;
+}
+/* Adjust digital timer */
+h1{
+    color: red;
+    text-align: center;
+    margin-top: -150px;
+    font-size: 50px;
+}
+h3{
+    letter-spacing: 8px;
+    color: palevioletred;
+    font-size: 30px;
+}
+/* describe start button properties */
+#start{
+    margin: 20px auto;
+    text-align: center;
+    color: beige;
+    background-color: green;
+    border: solid black;
+    border-radius: 20px;
+    padding: 16px 40px 16px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+/* describe stop button properties */
+#stop{
+    margin: 20px auto;
+    text-align: center;
+    color: beige;
+    background-color: red;
+    border: solid black;
+    border-radius: 50%;
+    padding: 36px 40px 36px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+/* describe reset button properties */
+#reset{
+    margin: 20px auto;
+    text-align: center;
+    color: blue;
+    background-color: yellow;
+    border: solid black;
+    border-radius: 20px;
+    padding: 16px 40px 16px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+/* describe responsible properties */
+@media only screen and (max-width: 600px) {
+    #watch img{
+        height: 50%;
+        width: auto;
+       
+    }
+    #btn{
+       width: fit-content;
+    }
+  }
