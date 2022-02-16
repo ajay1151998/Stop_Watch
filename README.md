@@ -23,9 +23,6 @@ preview :https://ajay1151998.github.io/Stop_Watch/
 
 --CSS
 
-
---BOOTSTRAP
-
 --JAVASCRIPT
 ## Acknowledgements
 
